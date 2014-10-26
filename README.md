@@ -2,6 +2,12 @@
 
 Sinatra example of authenticating and uploading images to Twitter. 
 
+Have not seen an updated Twitter Auth/Post example. Here is a solution in ~100 lines in Ruby. 
+
+Our company needed the ability to post Images, so this was a nice playground for that. 
+
+Feel free to fork/PR. 
+
 ## Getting Started
 
 
@@ -44,15 +50,15 @@ After the Twitter callback succeeds, navigate to the `/test` to view your OAuth 
 
 After authenticating, to post a tweet, navigate to the `/post/message/` route. Here are some examples.
 
-- [127.0.0.1:4567/post/message/?text=this is a test](127.0.0.1:4567/post/message/?text=this is a test)
-- [127.0.0.1:4567/post/message/?text=hello world](127.0.0.1:4567/post/message/?text=hello world)
+- [http://127.0.0.1:4567/post/message/?text=this is a test](http://127.0.0.1:4567/post/message/?text=this is a test)
+- [http://127.0.0.1:4567/post/message/?text=hello world](http://127.0.0.1:4567/post/message/?text=hello world)
 
 #### Post Image
 
 After authenticating, to post a tweet with an **image**, navigate to the `/post/image/`route. Here are some examples.
 
-- [127.0.0.1:4567/post/image/?url=https://pbs.twimg.com/profile_banners/451564034/1398835007/1500x500](127.0.0.1:4567/post/image/?url=https://pbs.twimg.com/profile_banners/451564034/1398835007/1500x500)
-- [127.0.0.1:4567/post/image/?url=http://goo.gl/G9Sozk](127.0.0.1:4567/post/image/?url=http://goo.gl/G9Sozk)
+- [http://127.0.0.1:4567/post/image/?url=https://pbs.twimg.com/profile_banners/451564034/1398835007/1500x500](http://127.0.0.1:4567/post/image/?url=https://pbs.twimg.com/profile_banners/451564034/1398835007/1500x500)
+- [http://127.0.0.1:4567/post/image/?url=http://goo.gl/G9Sozk](http://127.0.0.1:4567/post/image/?url=http://goo.gl/G9Sozk)
 
 #### Logout
 
