@@ -7,15 +7,15 @@ Sinatra example of authenticating and uploading images to Twitter.
 First open a Terminal
 
 	# Install required Gems
-    $ bundle
+    bundle
     
     # Setup Twitter Environment Variables
-    $ cp env.example env.local
+    cp env.example env.local
     # Open local and enter values for CONSUMER_KEY and CONSUMER_SECRET
-    $ source env.local
+    source env.local
     
     # Start websever
-    $ ruby ./main.rb
+    ruby ./main.rb
     == Sinatra/1.4.5 has taken the stage on 4567 for development with backup from Thin
 	Thin web server (v1.6.2 codename Doc Brown)
 	Maximum connections set to 1024
