@@ -4,7 +4,11 @@ Sinatra example of authenticating and uploading images to Twitter.
 
 ## Getting Started
 
-First open a Terminal
+
+First and foremost, you must have an set of consumer keys from Twitter. Here is the URL to start that process, [https://apps.twitter.com/](https://apps.twitter.com/).
+
+
+Second open a Terminal
 
 	# Install required Gems
     bundle
